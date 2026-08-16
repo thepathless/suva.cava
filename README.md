@@ -6,14 +6,18 @@ browser tabs, anything that publishes MPRIS.
 
 ![preview](preview.png)
 
+<video src="https://github.com/thepathless/omacava/releases/download/v1.0.0/preview.mp4" controls width="100%"></video>
+
 ## Features
 
 - **Live spectrum** — 24 CAVA bars driven by the system audio (both stereo
   channels combined), with theme-accurate colors
-- **Click** — pause/resume whatever media is currently playing
-- **Scroll** — change the system volume with an OSD toast (icon + %)
-- **Hover** — tooltip showing the current track — artist for any player
-  (omamusic-style naming), or "No media playing" when idle
+- **Mouse scroll** — increase or decrease the system volume, with an OSD
+  toast (icon + %)
+- **Mouse hover** — tooltip showing the name of the media being played
+  (omamusic-style `title — artist`), or "No media playing" when idle
+- **Mouse click** — pause and unpause whatever media is currently playing
+  (works with any MPRIS player)
 - **Auto-hide** (optional) — widget hides when neither audio nor media is
   present
 
