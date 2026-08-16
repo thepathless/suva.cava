@@ -10,7 +10,7 @@ import qs.Ui
 
 BarWidget {
   id: root
-  moduleName: "suva.cava"
+  moduleName: "omacava"
 
   readonly property int configuredBars: setting("bars", 24)
   readonly property bool autoHideSetting: setting("autoHide", false)
@@ -193,7 +193,7 @@ BarWidget {
     id: eqRow
     anchors.centerIn: parent
     spacing: Style.spaceReal(1.8)
-    height: Math.max(13, root.barSize - Style.space(10))
+    height: Math.max(16, root.barSize - Style.space(4))
 
     Repeater {
       model: root.configuredBars

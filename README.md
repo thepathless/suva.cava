@@ -1,4 +1,4 @@
-# suva.cava — CAVA Visualizer with Universal Media Controls
+# omacava — CAVA Visualizer with Universal Media Controls
 
 A live CAVA audio spectrum for the Omarchy status bar with universal media
 controls. Works with **any** MPRIS player — YouTube Music, Spotify, VLC,
@@ -25,14 +25,14 @@ browser tabs, anything that publishes MPRIS.
 ## Installation
 
 ```bash
-omarchy plugin add https://github.com/thepathless/suva.cava --enable
+omarchy plugin add https://github.com/thepathless/omacava --enable
 ```
 
-Or add it manually to `~/.config/omarchy/plugins/suva.cava/` and reference it
+Or add it manually to `~/.config/omarchy/plugins/omacava/` and reference it
 in `shell.json` under `bar.layout`:
 
 ```json
-{ "id": "suva.cava" }
+{ "id": "omacava" }
 ```
 
 ## Configuration
@@ -45,13 +45,13 @@ Settings live on the widget entry in `~/.config/omarchy/shell.json`:
 | `autoHide`   | `false` | Hide the widget when nothing is playing/audible  |
 
 ```json
-{ "id": "suva.cava", "bars": 32, "autoHide": true }
+{ "id": "omacava", "bars": 32, "autoHide": true }
 ```
 
 ## How it works
 
-- `cava.conf` — CAVA config: PipeWire input, mono (average of L+R), raw ASCII
-  output at 60 fps
+- `cava.conf` — CAVA config: PipeWire input from the speaker sink's monitor
+  (system audio, not the mic), mono (average of L+R), raw ASCII output at 60 fps
 - `BarWidget.qml` — spectrum rendering, universal MPRIS player selection,
   volume OSD, and a self-contained `PopupWindow` tooltip (independent of the
   bar's built-in tooltip plumbing)

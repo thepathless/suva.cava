@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "id": "suva.cava",
-  "name": "Cava Visualizer",
+  "id": "omacava",
+  "name": "OMAcava",
   "version": "1.0.0",
   "author": "Dr. Suvadeep",
   "description": "CAVA audio spectrum visualizer with universal media controls for the Omarchy status bar",
@@ -12,7 +12,7 @@
     "barWidget": "BarWidget.qml"
   },
   "barWidget": {
-    "displayName": "Cava Visualizer",
+    "displayName": "OMAcava",
     "description": "Live audio spectrum: click to pause, scroll for volume, hover for the track name",
     "category": "Media",
     "allowMultiple": false,
