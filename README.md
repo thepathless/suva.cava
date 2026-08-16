@@ -6,7 +6,7 @@ browser tabs, anything that publishes MPRIS.
 
 ![preview](preview.png)
 
-<video src="https://github.com/thepathless/omacava/releases/download/v1.0.0/preview.mp4" controls width="100%"></video>
+![Live preview](https://github.com/thepathless/omacava/releases/download/v1.0.0/preview.mp4)
 
 ## Features
 
