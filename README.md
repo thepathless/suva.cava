@@ -25,7 +25,7 @@ browser tabs, anything that publishes MPRIS.
 ## Installation
 
 ```bash
-omarchy plugin add https://github.com/<your-user>/suva.cava --enable
+omarchy plugin add https://github.com/thepathless/suva.cava --enable
 ```
 
 Or add it manually to `~/.config/omarchy/plugins/suva.cava/` and reference it
