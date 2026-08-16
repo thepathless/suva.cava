@@ -10,15 +10,7 @@ browser tabs, anything that publishes MPRIS.
 
 ![preview](preview.png)
 
-[![Live preview — 18s screen recording](preview-thumb.png)]
-
-
-
-https://github.com/user-attachments/assets/a9328f3a-ed16-42eb-ba1a-e1ed53d652b9
-
-
-
-(https://github.com/thepathless/omacava/releases/download/v1.0.0/preview.mp4)
+<video src="https://github.com/user-attachments/assets/e2115490-1ef7-4b4d-9f67-94b46a406d71" controls width="100%"></video>
 
 ## Features
 
