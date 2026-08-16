@@ -1,7 +1,5 @@
 
 
-https://github.com/user-attachments/assets/e2115490-1ef7-4b4d-9f67-94b46a406d71
-
 # omacava — CAVA Visualizer with Universal Media Controls
 
 A live CAVA audio spectrum for the Omarchy status bar with universal media
